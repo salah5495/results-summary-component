@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 600px;
+    height: 350px;
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px #dbd2d2;
+    margin: 200px 200px 200px 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.container .result{
+    width: 300px;
+    height: 350px;
+    background: hsl(252, 100%, 67%);
+    border-radius: 10px ;
+    
+}
+.container .result .results-header{
+    background: hsl(252, 100%, 67%);
+    font-size: 18px;
+    color: white;
+    margin: 0 30px 30px 80px;
+    padding: 5px;
+    
+}
+.result-container{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: white;
+    background: linear-gradient(to bottom right, hsl(252, 100%, 67%), hsl(252, 100%, 47%));
+    margin: 0 30px 30px 80px;
+}
+.overall-result{
+    font-weight: 900;
+    text-align: center;
+    font-size: 2rem;
+    
+}
+.result-container .out-of{
+    /* text-align: center; */
+    margin-left: 30px;
+    color: rgb(216, 214, 214);
+}
+.comment{
+    color: #fff;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+.comment .level{
+    font-size: 1.5rem;
+    margin-left: 80px;
+}
+.comment .message{
+    margin-top: 10px;
+}
+.container .summary{
+    position: absolute;
+    left: 350px;
+    top: 0px;
+}
+.summary .reaction{
+    width: 230px;
+    height: 40px;
+    color: hsl(0, 100%, 67%);
+    border-radius: 5px;
+    background-color: hsl(0, 79%, 87%);
+    padding: 10px;
+    
+}
+
+.summary .memory{
+    width: 230px;
+    height: 40px;
+    color: hsl(39, 100%, 56%);
+    border-radius: 5px;
+    background-color:hsl(39, 76%, 87%); ;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.summary .verbal{
+    width: 230px;
+    height: 40px;
+    color: hsl(166, 100%, 37%);
+    border-radius: 5px;
+    background-color: hsl(165, 50%, 94%);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.summary .visual{
+    width: 230px;
+    height: 40px;
+    color: hsl(234, 85%, 45%);
+    border-radius: 5px;
+    background-color: hsl(233, 43%, 92%);
+    padding: 10px;
+    margin-top: 10px;
+}
+.summary .verbal span{
+    color: black;
+    margin-left: 77px;
+}
+.summary .visual span{
+    color: black;
+    margin-left: 80px;
+}
+.summary .reaction span{
+    color: black;
+    margin-left: 60px;
+}
+.summary .memory span{
+    color: black;
+    margin-left: 65px;
+}
+.summary h3{
+    margin: 10px 0 25px 0;
+}
+.summary .continue{
+    background-color: hsl(241, 87%, 21%);
+    color: #fff;
+    padding: 10px;
+    width: 230px;
+    height: 40px;
+    border-radius: 25px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.summary img{
+    margin-right: 3px;
+    width: 15px;
+}
